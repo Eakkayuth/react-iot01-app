@@ -5,19 +5,17 @@ import HomeMenu from './views/HomeMenu'
 import CalculateNumber from './views/CalculateNumber'
 import CalculateMoneyShare from './views/CalculateMoneyShare'
 
-function App() {
+export default function App() {
   return (
     <>
       <CssBaseline />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomeMenu />} />
-          <Route path="/CalculateNumber" element={<CalculateNumber />} />
-          <Route path="/CalculateMoneyShare" element={<CalculateMoneyShare />} />
+          <Route path="/calnum" element={<CalculateNumber />} />
+          <Route path="/calmoneyshare" element={<CalculateMoneyShare />} />
         </Routes>
       </BrowserRouter>
     </>
   )
 }
-
-export default App
