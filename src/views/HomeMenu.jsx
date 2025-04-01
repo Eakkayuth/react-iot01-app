@@ -10,7 +10,7 @@ export default function HomeMenu() {
             sx={{ width: 100, height: 100,mx:'auto' }}
           />
           <Typography
-            variant="h3"
+            variant="h5"
             sx={{ textAlign: "center", mt: 2, color: "primary.main" }}
           >
             IoT Calculator by Eakkayut
