@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Typography, Button, Avatar } from "@mui/material";
+import { Link } from "react-router-dom";
 export default function HomeMenu() {
   return (
     <>
@@ -15,7 +16,19 @@ export default function HomeMenu() {
           >
             IoT Calculator by Eakkayut
           </Typography>
-        
+          <Link to={'/calnum'}>
+           <Button fullWidth variant='contained' sx={{ mt: 2, backgroundColor: '#0fe667'}}>
+            <Typography variant="h6" sx={{ textAlign: 'center'}}>
+              Go To Calculate Number
+            </Typography>
+          </Button>
+          </Link>
+         
+          <Button component={Link} to={'/calmoneyshare'} fullWidth variant='contained' sx={{ mt: 2, backgroundColor: '#0fd9e6'}}>
+            <Typography variant="h6" sx={{ textAlign: 'center'}}>
+              Go To Calculate MoneyShare
+            </Typography>
+          </Button>
         </Box>
       </Box>
     </>
