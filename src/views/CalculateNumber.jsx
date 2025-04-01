@@ -9,7 +9,7 @@ function CalculateNumber() {
         <Box sx={{ width: "70%", boxShadow: 2, mx: "auto", my: "auto", p: 3 }}>
           <Avatar
             src={
-              "https://cdn.pixabay.com/photo/2024/01/07/14/12/man-8493246_1280.jpg"
+              "https://cdn.pixabay.com/photo/2021/10/05/21/46/math-6683827_1280.png"
             }
             sx={{ width: 100, height: 100, mx: "auto" }}
           />
