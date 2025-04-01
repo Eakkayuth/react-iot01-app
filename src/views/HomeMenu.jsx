@@ -13,7 +13,7 @@ export default function HomeMenu() {
             variant="h3"
             sx={{ textAlign: "center", mt: 2, color: "primary.main" }}
           >
-            IoT Calculator by Chattanon
+            IoT Calculator by Eakkayut
           </Typography>
         
         </Box>
